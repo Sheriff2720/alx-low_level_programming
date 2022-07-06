@@ -7,7 +7,7 @@
  *
  * Description: Computes an absolute value of an int
  *
- * Reteun: integer
+ * Return: integer
  */
 int _abs(int n)
 {
