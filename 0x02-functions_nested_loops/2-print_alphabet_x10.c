@@ -9,18 +9,17 @@
  */
 void print_alphabet_x10(void)
 {
-	int round = 0;
-	char c = 'a';
-
-	while (round < 10)
+	int i = 0;
+	char c;
+	
+	while (i <= 9)
 	{
-		c = 'a';
-		while (c <= 'z')
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			_putchar(c);
-			c++;
+			_putchar(c)
 		}
 		_putchar('\n');
-		round++;
+
+		i++;
 	}
 }
