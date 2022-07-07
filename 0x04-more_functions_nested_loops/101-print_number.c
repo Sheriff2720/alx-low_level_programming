@@ -45,7 +45,7 @@ void print_number(int n)
 		{
 			place--;
 		}
-		else if (dogot != 0 && begin == 0)
+		else if (digit != 0 && begin == 0)
 		{
 			begin = 1;
 			if (negative == 1)
