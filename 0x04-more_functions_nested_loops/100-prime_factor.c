@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	long in prime = 612852475143;
+	long int prime = 612852475143;
 	long int quotient = prime;
 	long int divisor = 2;
 
